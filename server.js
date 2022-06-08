@@ -4,6 +4,7 @@ const cors = require('cors')
 const PORT = 8000
 
 app.use(cors())
+app.use(express.statis('public'))
 
 const cast = {
     'kim hye hyoon': {
